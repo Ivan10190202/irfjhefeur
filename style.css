@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    margin: 0 auto;
+    width: 1440px;
+}
+
+header{
+    margin: 0 auto;
+    height: 295px;
+    background-color: #196B78;
+    color: #CCF8FF;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 8px 35px rgb(0 0 0 / 36%);
+}
+
+.header-text{
+    margin-top: 64px;
+}
+
+header h1{
+    margin: 0;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+header p{
+    opacity: 75%;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.find-field{
+    width: 800px;
+    height: 64px;
+    border-radius: 20px;
+    margin-left: 320px;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #CED4DA;
+    font-size: 24px;
+    padding: 30px;
+    color: #6e7377;
+}
+
+.find-field:focus{
+    outline-color: #01a8c2;
+}
+
+.emoji{
+    height: 125200px;
+    box-shadow: 0px 8px 35px rgb(0 0 0 / 36%);
+    background-color: #EDEEF3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -65px;
+}
+
+.emoji_pos{
+    margin-top: 40px;
+    width: 988px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.emoji-block{
+    margin-top: 20px;
+    margin-left: 8px;
+    width: 316px;
+    height: 184px;
+    background: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Inter';
+}
+
+.emoji-block p{
+    width: 268px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #3F444A;
+}
+
+.emoji-block p:first-child{
+    font-size: 48px;
+    margin: 0;
+    margin-top: 48px;
+}
+
+.emoji-block h2{
+    text-decoration-line: underline;
+    font-size: 17px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.emoji-block.hide{
+    display: none;
+}
+
+.delete{
+    display: none;
+}
